@@ -62,7 +62,7 @@ int	main(int argc, char *argv[])
 		if ((is_number(argv[1]) && is_number(argv[2]) == 1))
 			rush(ft_atoi(argv[1]), ft_atoi(argv[2]));
 		else
-			write(1, "Please enter a positive integers for x and y.\n", 51);
+			write(1, "Please enter a positive integers for x and y.\n", 46);
 	}
 	else
 	{
